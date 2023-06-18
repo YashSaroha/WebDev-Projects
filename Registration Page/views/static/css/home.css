@@ -1,0 +1,98 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background: url("../img/home.jpg") center fixed no-repeat;
+  background-size: cover;
+  color: wheat;
+}
+
+.navbar{
+  display: flex;
+}
+
+.logo h1{
+  font-size: 25px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  padding: 10px 20px;
+}
+
+.nav-item{
+  position: absolute;
+  top: 20px;
+  right: 36px;
+}
+
+.nav-list{
+  display: inline-block;
+  padding: 10px 20px;
+}
+li{
+  list-style: none;
+  display: inline;
+  margin: 10px;
+  font-size: 24px;
+}
+
+li:hover{
+  background-color: grey;
+  /* border-bottom: 3px solid grey; */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+}
+
+.container{
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+
+.items{
+  display: block;
+  border: 2px solid white;
+  width: 50%;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.items h1{
+  margin: 30px 0px;
+  font-size: 46px;
+}
+
+.items p{
+  margin-bottom: 30px;
+  font-size: 21px;
+}
+
+.cards {
+position: relative;
+top: 228px;
+padding: 20px;
+justify-content: center;
+}
+
+.card-items{
+display: flex;
+justify-content: center;
+}
+
+.books{
+  margin: 20px 50px;
+}
+.notes{
+  margin: 20px 50px;
+}
+.pyqs{
+  margin: 20px 50px;
+}
